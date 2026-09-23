@@ -1,0 +1,16 @@
+[
+  {"name": "area:frontend", "color": "1f6feb", "description": "React SPA"},
+  {"name": "area:backend", "color": "8250df", "description": "PocketBase hooks and migrations"},
+  {"name": "area:ops", "color": "6e7781", "description": "Hosting, deploys, CI"},
+  {"name": "area:docs", "color": "0e8a16", "description": "Handbook and ADRs"},
+  {"name": "area:business", "color": "bf8700", "description": "Pricing, legal, operations"},
+  {"name": "biz:lll", "color": "d4c5f9", "description": "Lit Little Laboratories"},
+  {"name": "biz:bil", "color": "c5def5", "description": "The web and software LLC"},
+  {"name": "biz:shared", "color": "bfdadc", "description": "Both businesses"},
+  {"name": "risk:prod", "color": "d93f0b", "description": "Changes production or customer data"},
+  {"name": "needs-decision", "color": "fbca04", "description": "Blocked on a decision"},
+  {"name": "good-first", "color": "7057ff", "description": "Small, well-scoped"},
+  {"name": "bug", "color": "d73a4a", "description": "Something is broken"},
+  {"name": "feature", "color": "a2eeef", "description": "New capability"},
+  {"name": "incident", "color": "b60205", "description": "Production incident"}
+]

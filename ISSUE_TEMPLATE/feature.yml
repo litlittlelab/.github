@@ -1,0 +1,22 @@
+name: Feature
+description: A new capability or change in behavior
+title: "Feature: "
+labels: ["feature"]
+body:
+  - type: textarea
+    id: why
+    attributes: { label: Problem or goal, description: "Who is this for and why now?" }
+    validations: { required: true }
+  - type: textarea
+    id: what
+    attributes: { label: Proposed change }
+  - type: dropdown
+    id: biz
+    attributes: { label: Which business, options: [Lit Little Laboratories, the other LLC, shared] }
+  - type: checkboxes
+    id: risk
+    attributes:
+      label: Risk
+      options:
+        - label: Touches customer data or money
+        - label: Needs a migration

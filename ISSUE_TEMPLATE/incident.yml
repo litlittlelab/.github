@@ -1,0 +1,19 @@
+name: Incident
+description: Production was down, wrong or at risk
+title: "Incident: "
+labels: ["incident", "risk:prod"]
+body:
+  - type: input
+    id: when
+    attributes: { label: Started (date and time, Central) }
+    validations: { required: true }
+  - type: textarea
+    id: impact
+    attributes: { label: Impact, description: "What customers saw. No customer names here." }
+    validations: { required: true }
+  - type: textarea
+    id: actions
+    attributes: { label: What we did (including any rollback or break-glass use) }
+  - type: textarea
+    id: cause
+    attributes: { label: Cause and follow-ups }

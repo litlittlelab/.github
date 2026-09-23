@@ -1,0 +1,21 @@
+name: Ops change
+description: A change to hosting, deploys, DNS, the droplet, dev VM or secrets locations
+title: "Ops: "
+labels: ["area:ops", "risk:prod"]
+body:
+  - type: textarea
+    id: change
+    attributes: { label: Change, description: "Exactly what changes, on which host." }
+    validations: { required: true }
+  - type: textarea
+    id: backup
+    attributes: { label: Backup taken before the change }
+    validations: { required: true }
+  - type: textarea
+    id: rollback
+    attributes: { label: Rollback (exact commands) }
+    validations: { required: true }
+  - type: textarea
+    id: verify
+    attributes: { label: How we verify it worked (status codes, checksums, logs) }
+    validations: { required: true }

@@ -1,0 +1,19 @@
+name: Bug
+description: Something is broken or wrong
+title: "Bug: "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what
+    attributes: { label: What happened, description: "Never paste customer names, emails or phone numbers. Link the CRM record instead." }
+    validations: { required: true }
+  - type: textarea
+    id: expected
+    attributes: { label: What should have happened }
+  - type: dropdown
+    id: env
+    attributes: { label: Where, options: [production, dev, local] }
+    validations: { required: true }
+  - type: textarea
+    id: steps
+    attributes: { label: Steps to reproduce }

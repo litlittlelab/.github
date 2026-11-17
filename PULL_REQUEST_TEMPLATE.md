@@ -18,5 +18,6 @@
 - [ ] Security: no secrets, keys or customer data in the diff; new collections have rules set in the same migration; no new `dangerouslySetInnerHTML`
 - [ ] Copyright: any new images, fonts, icons or copied code are ours or properly licensed (say which license)
 - [ ] No em dashes in code, comments or UI text
+- [ ] Evidence: if this change is based on site analytics, name the stat and the date (or write n/a)
 
 Production deploys need an approving review from the other person on the final commit. The droplet refuses anything else.
